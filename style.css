@@ -1,0 +1,170 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+*{
+    padding: 0;
+    margin :auto;
+
+    text-align: center;
+    text-decoration: none; 
+
+    color: black;
+}
+
+html, body{
+    margin: 0;
+
+    height: auto;
+    max-width: auto;
+
+    background-color: #ffffff;
+}
+
+main{
+    text-align: center;
+    align-items: center;
+    width: 500px;
+    height: auto;
+
+
+}
+
+.cabecalho{
+    display : flex;
+    flex-direction: row;
+
+    justify-items: space-between;
+
+}
+
+.cabecalho-item p{
+    font-family: 'Press Start 2P', cursive;
+
+}
+
+.cabecalho-item {
+    font-size: 60px;
+
+    margin-top: 20px;
+
+    text-align: center;
+}
+
+.cabecalho-item-index a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+
+    padding: 0px 50px 10px 0px;
+    font-size: 25pt;
+    position: relative;
+}
+
+.cabecalho-item-indexa::after {
+    content: "";
+    width: 0%;
+    height: 4px;
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+
+    left: 0;
+    transition: 0.5s;
+}
+
+.cabecalho-item-index a:hover ::after{
+    width: 100%;
+}
+
+.projetos{
+    margin-top: 50px;
+}
+
+.projetos p{
+    font-family: 'Press Start 2P', cursive;
+}
+
+.main{
+    text-align: center;
+
+    width: auto;
+    height: auto;
+}
+
+.main p{
+    font-family: 'Press Start 2P', cursive;
+}
+
+.imagens{
+    display: flex;
+
+    align-items: center;
+    flex-direction:row;
+    margin-top: 100px;
+}
+
+.vozao{
+    border: #00000069;
+
+    border-radius: 50px;
+
+    margin-right: 5em;
+}
+
+.vozao p{
+    font-size: 18px;
+}
+
+
+.api{
+    border: #00000069;
+
+    border-radius: 50px;
+
+    margin-right: 5em;
+}
+
+.api p{
+    font-size: 18px;
+}
+
+.xadrez{
+    border: #00000069;
+
+    border-radius: 50px;
+
+    margin-right: 5em;
+}
+
+.xadrez p{
+    font-size: 18px;
+}
+
+.java{
+    border: #00000069;
+
+    border-radius: 50px;
+
+    margin-right: 5em;
+}
+
+.java p{
+    font-size: 18px;
+}
+
+.projetos{
+    font-size: 40px;
+
+    padding: 40px;
+}
+
+.fim{
+    padding: 0;
+    margin :auto;
+
+    margin-top: 350px;
+}
+
+
+.Fim p{
+    color: #63655A;
+    font-size: 14px;
+}
